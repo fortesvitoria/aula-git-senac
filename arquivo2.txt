@@ -1,0 +1,52 @@
+
+
+Exercício 1:
+
+Clone um repositório remoto existente para o seu computador usando o comando git clone <URL do repositório>.
+Navegue para o diretório do repositório clonado usando o comando cd NomeDoRepositorio.
+Crie um novo branch chamado "experimento" usando o comando git branch experimento.
+Alterne para o branch "experimento" usando o comando git checkout experimento.
+Faça algumas alterações no código ou adicione novos arquivos ao projeto.
+Verifique o status do repositório usando o comando git status.
+Adicione as alterações ao controle de versão usando o comando git add . (adicionar todos os arquivos modificados).
+Faça um commit das alterações usando o comando git commit -m "Realizar experimento".
+Volte para o branch principal (master) usando o comando git checkout master.
+Remova o branch "experimento" usando o comando git branch -d experimento.
+Envie as alterações para o repositório remoto usando o comando git push origin master.
+
+=====================================================================================================================
+
+Exercício 2:
+
+Crie um novo repositório local em um diretório de sua escolha usando o comando git init.
+Crie um arquivo chamado "arquivo1.txt" no diretório do repositório.
+Adicione algum conteúdo ao "arquivo1.txt".
+Verifique o status do repositório usando o comando git status.
+Adicione o arquivo "arquivo1.txt" ao controle de versão usando o comando git add arquivo1.txt.
+Faça um commit das alterações usando o comando git commit -m "Adicionar arquivo1.txt".
+Crie um novo branch chamado "desenvolvimento" usando o comando git branch desenvolvimento.
+Alterne para o branch "desenvolvimento" usando o comando git checkout desenvolvimento.
+Crie um novo arquivo chamado "arquivo2.txt" no diretório do repositório.
+Adicione algum conteúdo ao "arquivo2.txt".
+Verifique o status do repositório usando o comando git status.
+Adicione o arquivo "arquivo2.txt" ao controle de versão usando o comando git add arquivo2.txt.
+Faça um commit das alterações no branch "desenvolvimento" usando o comando git commit -m "Adicionar arquivo2.txt no branch desenvolvimento".
+Volte para o branch principal (master) usando o comando git checkout master.
+Mescle as alterações do branch "desenvolvimento" para o branch principal usando o comando git merge desenvolvimento.
+Envie as alterações para o repositório remoto usando o comando git push origin master.
+
+=====================================================================================================================
+
+Exercício 3:
+
+Clone um repositório remoto existente para o seu computador usando o comando git clone <URL do repositório>.
+Navegue para o diretório do repositório clonado usando o comando cd NomeDoRepositorio.
+Crie um novo branch chamado "feature/nova-funcionalidade" usando o comando git branch feature/nova-funcionalidade.
+Alterne para o branch "feature/nova-funcionalidade" usando o comando git checkout feature/nova-funcionalidade.
+Faça algumas alterações no código ou adicione novos arquivos relacionados à nova funcionalidade.
+Verifique o status do repositório usando o comando git status.
+Adicione as alterações ao controle de versão usando o comando git add . (adicionar todos os arquivos modificados).
+Faça um commit das alterações usando o comando git commit -m "Implementar nova funcionalidade".
+Envie as alterações para o repositório remoto usando o comando git push origin feature/nova-funcionalidade.
+Crie uma tag para marcar a versão da nova funcionalidade usando o comando git tag v1.0.
+Envie a tag para o repositório remoto usando o comando git push --tags.
